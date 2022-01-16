@@ -1,0 +1,19 @@
+{
+    "name": "Klatovský deník - remove paywall",
+    "description": "Remove paywall from page",
+    "version": "0.2",
+    "permissions": [
+        "activeTab"
+    ],
+    
+    "content_scripts": [
+        {
+        "matches": [
+            "https://klatovsky.denik.cz/*"
+            ],
+        "js": ["content.js"],
+        "run_at": "document_start"
+        }
+    ], 
+    "manifest_version": 2
+}

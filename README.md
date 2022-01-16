@@ -1,0 +1,1 @@
+## Content script for disabling client side paywall
