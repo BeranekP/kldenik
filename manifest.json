@@ -9,11 +9,12 @@
     "content_scripts": [
         {
         "matches": [
-            "https://klatovsky.denik.cz/*"
+            "https://klatovsky.denik.cz/*",
+			"https://*.denik.cz/*"
             ],
         "js": ["content.js"],
         "run_at": "document_start"
         }
     ], 
-    "manifest_version": 2
+    "manifest_version": 3
 }
